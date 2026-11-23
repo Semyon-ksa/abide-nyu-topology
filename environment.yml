@@ -1,0 +1,16 @@
+name: abide-topology
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0
+  - scipy>=1.13
+  - pandas>=2.2
+  - networkx>=3.3
+  - statsmodels>=0.14
+  - matplotlib>=3.9
+  - nibabel
+  - nilearn=0.11.1
+  - pip
+  - pip:
+      - dionysus==2.2.3
